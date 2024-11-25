@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano Alimentar Vegano</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #4CAF50, #2E7D32);
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 10px 20px;
+        }
+        .meal-plan {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .meal {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(50% - 20px);
+            padding: 15px;
+            min-width: 250px;
+        }
+        .meal h3 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        .meal ul {
+            list-style: none;
+            padding: 0;
+        }
+        .meal ul li {
+            margin: 8px 0;
+            padding-left: 15px;
+            position: relative;
+        }
+        .meal ul li::before {
+            content: '✓';
+            color: #4CAF50;
+            position: absolute;
+            left: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 0.9rem;
+            background-color: #2E7D32;
+            color: white;
+        }
+        @media (max-width: 600px) {
+            .meal {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Plano Alimentar Vegano</h1>
+    <p>Um exemplo balanceado para o seu dia a dia.</p>
+</header>
+
+<div class="container">
+    <section class="meal-plan">
+        <div class="meal">
+            <h3>Café da Manhã</h3>
+            <ul>
+                <li>Smoothie de banana com leite de aveia e chia</li>
+                <li>Pão integral com pasta de amendoim</li>
+                <li>Frutas frescas (morangos e kiwi)</li>
+            </ul>
+        </div>
+        <div class="meal">
+            <h3>Lanche da Manhã</h3>
+            <ul>
+                <li>Iogurte de coco com granola</li>
+                <li>Nozes e castanhas</li>
+            </ul>
+        </div>
+        <div class="meal">
+            <h3>Almoço</h3>
+            <ul>
+                <li>Salada colorida (rúcula, tomate-cereja, cenoura ralada, grão-de-bico)</li>
+                <li>Arroz integral</li>
+                <li>Estrogonofe de cogumelos com creme de castanha de caju</li>
+            </ul>
+        </div>
+        <div class="meal">
+            <h3>Lanche da Tarde</h3>
+            <ul>
+                <li>Bolo de cenoura vegano</li>
+                <li>Chá de ervas sem açúcar</li>
+            </ul>
+        </div>
+        <div class="meal">
+            <h3>Jantar</h3>
+            <ul>
+                <li>Quinoa com legumes assados (abobrinha, pimentão e berinjela)</li>
+                <li>Tofu grelhado com molho de limão</li>
+            </ul>
+        </div>
+        <div class="meal">
+            <h3>Ceia</h3>
+            <ul>
+                <li>Leite vegetal morno com cacau</li>
+                <li>Biscoitos integrais veganos</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<footer>
+    &copy; 2024 Plano Alimentar Vegano. Todos os direitos reservados.
+</footer>
+
+</body>
+</html>

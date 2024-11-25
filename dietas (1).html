@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dietas (1).css">
+    <title>Dietas</title>
+    <link rel="icon" type="image/png" href="imagens (1)/dfbef60c-b49f-4f52-bea8-20006566a486-removebg-preview.png" sizes="32x32">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .box {
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        .box img {
+            max-width: 100px;
+            border-radius: 10px;
+        }
+
+        .button {
+            background-color: #ffffff;
+            border: none;
+            color: rgb(0, 0, 0);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ffffff;
+            transform: scale(1.05);
+        }
+
+        .low-carb {
+            background: linear-gradient(135deg, #56CCF2, #2F80ED);
+        }
+
+        .reeducacao-alimentar {
+            background: linear-gradient(135deg, #6FCF97, #27AE60);
+        }
+
+        .hipercalorica {
+            background: linear-gradient(135deg, #EB5757, #FF6F61);
+        }
+
+        .vegana {
+            background: linear-gradient(135deg, #6bd96b, #6bd96b);
+        }
+    </style>
+    <link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+
+
+    <header>
+    
+        <nav id="navbar">
+            <i class="" id="nav_logo">SAÚDE NUTRI </i>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="index (1).html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index (1).html">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="dietas (1).html">dietas</a>
+                </li>
+                
+                <Li class="nav-item">
+                <a href="login.html">Meus Dados</a>
+                
+
+            </ul>
+
+           
+        </nav>
+
+    
+        
+
+
+
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="dietas (1).html">dietas</a>
+                </li>
+               
+        </div>
+    </header>
+
+
+
+
+    <!-- Seção Low Carb -->
+    <div class="box low-carb">
+        <button class="button" onclick="window.location.href='lowcarb (1).html'">Low Carb</button>
+        <img src="imagens (1)/alimentos-low-carb-removebg-preview (1).png" alt="Low Carb">
+    </div>
+
+    <!-- Seção Reeducação Alimentar -->
+    <div class="box reeducacao-alimentar">
+        <button class="button" onclick="window.location.href='reeducacao.alimentar (1).html'">Reeducação Alimentar</button>
+        <img src="imagens (1)/OIP-removebg-preview (1).png" alt="Reeducação Alimentar">
+    </div>
+
+    <!-- Seção Hipercalórica -->
+    <div class="box hipercalorica">
+        <button class="button" onclick="window.location.href='hipercalorica (1).html'">Hipercalórica</button>
+        <img src="imagens (1)/10137999-removebg-preview (1).png" alt="Hipercalórica">
+    </div>
+
+    <!-- Seção Vegana -->
+    <div class="box vegana">
+        <button class="button" onclick="window.location.href='vegano (1).html'">Vegana</button>
+        <img src="imagens (1)/pngtree-healthy-food-png-image_3776802-removebg-preview (1).png" alt="Vegana">
+    </div>
+
+</body>
+</html>

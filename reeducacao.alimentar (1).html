@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano de Reeducação Alimentar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #2196F3, #0D47A1);
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 10px 20px;
+        }
+        .meal-plan {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .meal {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(50% - 20px);
+            padding: 15px;
+            min-width: 250px;
+        }
+        .meal h3 {
+            margin-top: 0;
+            color: #2196F3;
+        }
+        .meal ul {
+            list-style: none;
+            padding: 0;
+        }
+        .meal ul li {
+            margin: 8px 0;
+            padding-left: 15px;
+            position: relative;
+        }
+        .meal ul li::before {
+            content: '✓';
+            color: #2196F3;
+            position: absolute;
+            left: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 0.9rem;
+            background-color: #0D47A1;
+            color: white;
+        }
+        @media (max-width: 600px) {
+            .meal {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Plano de Reeducação Alimentar</h1>
+    <p>Equilibrado e sustentável para um estilo de vida saudável.</p>
+</header>
+
+<div class="container">
+    <section class="meal-plan">
+        <div class="meal">
+            <h3>Café da Manhã</h3>
+            <ul>
+                <li>1 fatia de pão integral com queijo branco</li>
+                <li>1 copo de suco natural de laranja</li>
+                <li>1 banana</li>
+            </ul>
+        </div>
+        <div class="meal">
+            <h3>Lanche da Manhã</h3>
+            <ul>
+                <li>1 maçã</li>
+                <li>1 punhado de castanhas (amêndoas ou nozes)</li>
+            </ul>
+        </div>
+        <div class="meal">
+            <h3>Almoço</h3>
+            <ul>
+                <li>Arroz integral</li>
+                <li>Feijão preto</li>
+                <li>Frango grelhado ou peixe</li>
+                <li>Salada variada (folhas, tomate, cenoura e azeite)</li>
+            </ul>
+        </div>
+        <div class="meal">
+            <h3>Lanche da Tarde</h3>
+            <ul>
+                <li>1 iogurte natural</li>
+                <li>Granola sem açúcar</li>
+            </ul>
+        </div>
+        <div class="meal">
+            <h3>Jantar</h3>
+            <ul>
+                <li>Sopa de legumes com quinoa</li>
+                <li>1 fatia de pão integral</li>
+            </ul>
+        </div>
+        <div class="meal">
+            <h3>Ceia</h3>
+            <ul>
+                <li>1 copo de chá de camomila</li>
+                <li>3 biscoitos integrais</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<footer>
+    &copy; 2024 Plano de Reeducação Alimentar. Todos os direitos reservados.
+</footer>
+
+</body>
+</html>

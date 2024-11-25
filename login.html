@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Nutrição</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        main {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input, select, button {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Seu Guia de Nutrição</h1>
+        <p>Preencha os dados abaixo para receber recomendações personalizadas.</p>
+    </header>
+    <main>
+        <h2>Formulário de Avaliação</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" name="peso" placeholder="Ex.: 70" step="0.1" required>
+
+            <label for="altura">Altura (cm):</label>
+            <input type="number" id="altura" name="altura" placeholder="Ex.: 170" required>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" placeholder="Digite sua idade" required>
+
+            <label for="objetivo">Objetivo:</label>
+            <select id="objetivo" name="objetivo" required>
+                <option value="">Selecione seu objetivo</option>
+                <option value="emagrecer">Emagrecer</option>
+                <option value="ganhar_massa">Ganhar Massa Muscular</option>
+                <option value="manter_peso">Manter Peso</option>
+                <option value="melhorar_saude">Melhorar a Saúde</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Seu Guia de Nutrição. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
